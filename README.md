@@ -42,3 +42,10 @@ Chevereto-Free is a fork from [Chevereto-Free](https://github.com/rodber/chevere
 ## 📜 License
 
 Copyright [Rodolfo Berríos Arce](http://rodolfoberrios.com) - [AGPLv3](LICENSE).
+
+## 🤣 Demo
+Self-use pixiv image set and random image api, only for browsing experience, no uploading
+
+> Demo site to make some additional changes to UI and php code, currently in testing, may be merged in the future
+
+https://img.fudaoyuan.icu

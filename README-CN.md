@@ -4,6 +4,9 @@
 
 Chevereto-Free允许你在你自己的服务器上创建一个全功能的多语言图像托管网站。这是你的主机和你的规则，告别关闭和限制。
 
+> 另一个 chevereto中文 Fork -> [CheveretoChina 基于 Chevereto-Free 开发的图床程序](https://hostloc.com/thread-980212-1-1.html)
+
+
 ## ✨ 截图
 
 ![Homepage](.github/screen/1a.png)
@@ -40,3 +43,10 @@ Chevereto-Free-Multi-Language 是 [Chevereto-Free](https://github.com/rodber/che
 ## 📜 许可证
 
 Copyright [Rodolfo Berríos Arce](http://rodolfoberrios.com) - [AGPLv3](LICENSE).
+
+## 🤣 演示
+自用pixiv图片集和随机图片api，只用于浏览体验，不上传
+
+> 演示网站对用户界面和php代码做一些额外的修改，目前正在测试中，将来可能会合并。
+
+https://img.fudaoyuan.icu
