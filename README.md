@@ -1,49 +1,32 @@
-# Chevereto-Free
+# Chevereto-Free-Multi-Language
 
 <img alt="Chevereto" src="content/images/system/default/logo.svg" width="100%">
+Chevereto-Free allows you to create a full-featured Multi-Language image hosting website on your own server. It's your hosting and your rules, say goodbye to closures and restrictions.
 
-Chevereto-Free allows you to create a full-featured image hosting website on your own server. It's your hosting and your rules, say goodbye to closures and restrictions.
-
-[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://marketplace.digitalocean.com/apps/chevereto-free)
+## 😀 Readme Language
+English / [中文](README-CN.md)
 
 ## ✨ Screens
 
-![Homepage](.github/screen/1a.webp)
+![Homepage](.github/screen/1a.png)
 
-![Uploader light](.github/screen/2a.webp)
+![Mod](.github/screen/2a.png)
 
-![Uploader dark](.github/screen/3a.webp)
+![import](.github/screen/3a.png)
 
-![Upload complete](.github/screen/4a.webp)
+![Explorer](.github/screen/5a.png)
 
-![Explorer](.github/screen/5a.webp)
-
-![Dashboard](.github/screen/6a.webp)
+![Dashboard](.github/screen/6a.png)
 
 ## 🦓 About this fork
 
-Chevereto-Free is a fork from [Chevereto V3.16.2](https://releases.chevereto.com/3.X/3.16/3.16.2.html) in which only basic features are preserved. Chevereto-Free is for personal usage and small communities.
+Chevereto-Free is a fork from [Chevereto-Free](https://github.com/rodber/chevereto-free/) in which only basic features are preserved. Chevereto-Free is for personal usage and small communities.
 
-👉 **This fork removes**
+👉 **Changes in this bifurcation compared to the source bifurcation**
 
-* Social Network Login
-* External Storage Servers
-* Likes and Followers
-* Manage Banners
-* Multi-language Support
-* Moderation
-* Bulk Content Importing
-
-👉 **This fork misses**
-
-* All updates (non-security) added in [V3.17](https://releases.chevereto.com/3.X/3.17/3.17.2.html), [V3.18](https://releases.chevereto.com/3.X/3.18/3.18.3.html) and [V3.20](https://releases.chevereto.com/3.X/3.20/3.20.15.html) including:
-  * 360 images
-  * Nested albums
-  * ImageMagick support
-  * Improved sharing options
-  * User interface upgrade
-  * 12FA Support
-  * CLI API
+* Undo "Remove Multi-language Support"
+* Undo "Remove Moderation"
+* Undo "Remove Bulk Content Importing"
 
 ## 🧐 Requirements
 
