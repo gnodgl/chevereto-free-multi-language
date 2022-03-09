@@ -38,7 +38,9 @@ Chevereto-Free-Multi-Language 是 [Chevereto-Free](https://github.com/rodber/che
 
 ## 📚 文档
 
-[chevereto-free.github.io](https://chevereto-free.github.io)
+[chevereto-free.github.io](https://chevereto-free.github.io)  
+[如何安装 && 切换中文](https://github.com/keven1024/chevereto-free-multi-language/discussions/1)  
+[CSDN:宝塔chevereto1.6.2中文最新版踩坑教程](https://blog.csdn.net/qq_38862981/article/details/123142148) 这个b，我记住你了(狗头)  
 
 ## 📜 许可证
 
