@@ -37,7 +37,8 @@ Chevereto-Free is a fork from [Chevereto-Free](https://github.com/rodber/chevere
 
 ## 📚 Documentation
 
-[chevereto-free.github.io](https://chevereto-free.github.io)
+[chevereto-free.github.io](https://chevereto-free.github.io)  
+[How to install && use multi-language](https://github.com/keven1024/chevereto-free-multi-language/discussions/1)
 
 ## 📜 License
 
