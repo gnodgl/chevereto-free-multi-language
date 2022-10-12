@@ -1,0 +1,23 @@
+#!/bin/bash
+
+mkdir -p /data
+
+## Bump php upload max filesize and post max size to 100MB by default
+grep -qF 'upload_max_filesize' /config/php/php-local.ini || echo 'upload_max_filesize = 200M' >> /config/php/php-local.ini
+grep -qF 'post_max_size' /config/php/php-local.ini || echo 'post_max_size = 200M' >> /config/php/php-local.ini
+
+touch /config/settings.php
+ln -sf /config/settings.php /app/chevereto/app/settings.php
+
+cp /defaults/default /config/nginx/site-confs/default
+
+[[ ! -e "/data/images" ]] &&
+    mv /app/chevereto/images /data
+
+rm -rf /app/chevereto/images
+ln -sf /data/images /app/chevereto/images
+
+chown -R abc:abc \
+    /app/chevereto \
+    /config \
+    /data
