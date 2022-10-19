@@ -102,7 +102,13 @@ $route = function ($handler) {
         }
 
         // CHV\Image::uploadToWebsite($source, 'username', [params]) to inject API uploads to a given username
-        $uploaded_id = CHV\Image::uploadToWebsite($source);
+        if (is_null($_REQUEST['username']) or $_REQUEST['username'] == '') {
+            $uploaded_id = CHV\Image::uploadToWebsite($source);
+        } else {
+            $album = $_REQUEST['album_id'] ?: null;
+            $uploaded_id = CHV\Image::uploadToWebsite($source, $_REQUEST['username'], array('album_id' => $album));
+
+        }
         $json_array['status_code'] = 200;
         $json_array['success'] = array('message' => 'image uploaded', 'code' => 200);
         $image = CHV\Image::formatArray(CHV\Image::getSingle($uploaded_id, false, false), true);
